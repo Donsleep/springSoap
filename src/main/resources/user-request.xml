@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:us="http://demo.example.com/soap">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <us:getUserRequest>
+            <us:name>Peter</us:name>
+        </us:getUserRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
